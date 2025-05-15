@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KreArt Studio - Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="https://cdn-icons-png.flaticon.com/512/1822/1822920.png" alt="Logo KreArt" class="h-10">
+        <span class="text-xl font-bold text-gray-800">KreArt Studio</span>
+      </div>
+      <div>
+        <a href="#beranda" class="text-gray-700 hover:text-blue-500 px-3">Beranda</a>
+        <a href="#tentang" class="text-gray-700 hover:text-blue-500 px-3">Tentang</a>
+        <a href="#layanan" class="text-gray-700 hover:text-blue-500 px-3">Layanan</a>
+        <a href="#testimoni" class="text-gray-700 hover:text-blue-500 px-3">Testimoni</a>
+        <a href="#kontak" class="text-gray-700 hover:text-blue-500 px-3">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="beranda" class="bg-cover bg-center bg-no-repeat text-white py-32 mt-16" style="background-image: url('D1.jpg');">
+    <div class="bg-black bg-opacity-60 py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Bangun Identitas Brand yang Unik & Profesional</h1>
+        <p class="mb-8 text-lg md:text-xl">KreArt Studio hadir untuk bantu bisnismu tampil lebih menonjol dan berkelas.</p>
+        <a href="#layanan" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">Lihat Layanan Kami</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Tentang KreArt Studio</h2>
+      <p class="text-gray-700 text-lg mb-10">KreArt Studio adalah agensi desain grafis yang fokus pada branding, logo, desain kemasan, dan media sosial. Kami membantu UMKM hingga perusahaan besar dalam menciptakan identitas visual yang kuat dan menarik.</p>
+      <img src="beranda.jpg" alt="Tim KreArt" class="rounded-lg shadow-lg mx-auto w-full max-w-3xl">
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="layanan" class="py-20">
+    <div class="max-w-7xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-10">Layanan Unggulan</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+          <img src="brand.jpg" alt="Branding" class="mb-4 rounded-md w-full h-40 object-cover">
+          <h3 class="text-xl font-semibold mb-2">Branding</h3>
+          <p class="text-gray-700">Bangun identitas visual yang konsisten dan kuat untuk bisnis Anda.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+          <img src="logo.jpg" alt="Desain Logo" class="mb-4 rounded-md w-full h-40 object-cover">
+          <h3 class="text-xl font-semibold mb-2">Desain Logo</h3>
+          <p class="text-gray-700">Logo profesional yang mudah diingat dan merepresentasikan bisnismu.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition">
+          <img src="kemasan.jpg" alt="Desain Kemasan" class="mb-4 rounded-md w-full h-40 object-cover">
+          <h3 class="text-xl font-semibold mb-2">Desain Kemasan</h3>
+          <p class="text-gray-700">Tingkatkan daya tarik produk dengan kemasan yang estetis dan fungsional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section id="testimoni" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-10">Apa Kata Klien Kami</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <p class="text-gray-700 italic">"Desain dari KreArt Studio sangat membantu brand kami tampil profesional. Hasilnya keren banget!"</p>
+          <p class="mt-4 font-semibold">– Rina, Pemilik Kafe Klasik</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <p class="text-gray-700 italic">"Layanan cepat, komunikatif, dan hasil desain sesuai ekspektasi. Recommended banget!"</p>
+          <p class="mt-4 font-semibold">– Andi, Founder TechnoDev</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <p class="text-gray-700 italic">"Kemasan produk kami jadi lebih menarik sejak bekerja sama dengan KreArt. Penjualan pun meningkat!"</p>
+          <p class="mt-4 font-semibold">– Della, Owner Dapur Rasa</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Hubungi Kami</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Aulia</h3>
+          <p class="text-gray-600 mb-1">Manajer Proyek</p>
+          <p class="text-gray-700 text-sm">📞 0812-1234-5678</p>
+          <p class="text-gray-700 text-sm">✉ aulia@kreart.id</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Danu</h3>
+          <p class="text-gray-600 mb-1">Desainer Kreatif</p>
+          <p class="text-gray-700 text-sm">📞 0856-9876-5432</p>
+          <p class="text-gray-700 text-sm">✉ danu@kreart.id</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Mira</h3>
+          <p class="text-gray-600 mb-1">Layanan Pelanggan</p>
+          <p class="text-gray-700 text-sm">📞 0877-7654-3210</p>
+          <p class="text-gray-700 text-sm">✉ mira@kreart.id</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2025 KreArt Studio. Semua hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
